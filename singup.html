@@ -48,7 +48,6 @@
             createUserWithEmailAndPassword(auth, EmailInp.value, passInp.value)
             .then((credentials)=>{
                 console.log(credentials);
-                 window.location.href = 'index.html'
             })
             .catch((error)=>{
                 alert(error.messege);
